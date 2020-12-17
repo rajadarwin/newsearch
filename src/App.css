@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.GENRE,
+.BEST,
+.YEAR,
+.SEARCH,
+.DRAMA,
+.ROMANCE,
+.HOROR,
+.ANIME {
+  display: flex;
+  height: 345px;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+ .home {
+  background-image: url('./images/img-1.jpg');
+  background-position: center;
+  background-size: 75% 50%;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 50px;
+} /*Sementara*/
+
+.app{
+  background-color: black;
+}
+
+.pic{
+  width: auto;
+  height: 100%;
+
+}
+
+.GENRE {
+  background-image: url('./images/img-2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.BEST {
+  background-image: url('./images/img-3.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.YEAR {
+  background-image: url('./images/img-4.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.SEARCH {
+  background-image: url('./images/img-5.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.HOROR{
+  background-image: url('./images/img-6.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.DRAMA {
+  background-image: url('./images/img-7.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.ROMANCE {
+  background-image: url('./images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.ANIME {
+  background-image: url('./images/img-9.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+
+}
+
+::-webkit-scrollbar{
+  width: 15px
+}
+
+::-webkit-scrollbar-track{
+  background: grey;
+}
+
+::-webkit-scrollbar-thumb{
+  background: black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: whitesmoke;
+}
+
+@media screen and (max-width: 960px){
+
+}
+
